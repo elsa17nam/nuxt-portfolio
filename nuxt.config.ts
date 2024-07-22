@@ -5,9 +5,9 @@ export default defineNuxtConfig({
     'boxicons/css/boxicons.min.css'
   ],
 
-  modules: [
-    '@nuxtjs/tailwindcss'
-  ],
+  // modules: [
+  //   '@nuxtjs/tailwindcss'
+  // ],
 
   compatibilityDate: '2024-07-17'
 })
