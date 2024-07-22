@@ -8,7 +8,7 @@
           programming. Experienced with HTML, CSS, Python, and 
           C++ through academic coursework and personal projects. 
           Eager to apply and expand my skills in a professional 
-          environment
+          environment.
         </p>
     
         <div class="social-media">
@@ -44,7 +44,7 @@
         <div class="overlay"></div>
       </div>
       <div class="home-img">
-        <img src="~/assets/iu.png" alt="Intishar Usman">
+        <img src="~/assets/iu1.png" alt="Intishar Usman">
       </div>
     </section>
   </template>

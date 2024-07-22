@@ -13,6 +13,11 @@
         <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
         <input type="submit" value="Send Message" class="btn">
       </form>
+      <div class="center-paragraph">
+        <p>You may also contact me at this email: usman.intishar@s.msumain.edu.ph</p>
+      </div>
+      
+
     </section>
   </template>
   
