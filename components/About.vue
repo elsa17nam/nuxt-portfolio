@@ -1,7 +1,7 @@
 <template>
     <section class="about" id="about">
       <div class="about-img">
-        <img src="~/assets/iu.PNG" alt="IU image">
+        <img src="~/assets/iu.png" alt="IU image">
       </div>
 
       <div class="about-content">
