@@ -12,9 +12,13 @@
 }
 
 :root {
-    --bg-color: rgb(15, 241, 241);
-    --text-color: grey;
-    --main-color: Blueviolet;
+    --bg-color:  #FAFAFA;
+    /* --bg-color: rgb(15, 241, 241); */
+
+    --text-color: rgb(117, 113, 113);
+    --main-color: 	#008080;
+    /* --main-color: Blueviolet; */
+
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
 
@@ -80,8 +84,9 @@ body {
 }
 
 .header.sticky .navbar a{
-    color: var(--text-color);
+    color: white;
 }
+
 
 .header.sticky .navbar a.active {
     color: var(--bg-color);
@@ -108,7 +113,8 @@ body {
 }
 
 .header.sticky #darkMode-icon {
-    color: var(--text-color);
+    color: white;
+    /* color: var(--text-color); */
     opacity: .9;
 }
 
@@ -333,9 +339,9 @@ section {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 31%;
+    width: 40%;
     pointer-events: none;
-    border-radius: 50%;
+    border-radius: 440%;
 }
 
 span {
@@ -767,7 +773,11 @@ ul.custom-before li::before {
 
   @media (max-width: 768px) {
     .header {
-        padding: 1.3rem 5%;
+        padding: 1.3rem 3%;
+    }
+
+    .logo {
+        font-size: small;
     }
 
     .navbar a {
@@ -779,28 +789,35 @@ ul.custom-before li::before {
         right: 2rem;
         font-size: 1.9rem;
     }
+   
 
     .home-content h3 {
+        margin-left: 4rem;
         font-size: 2.5rem;
         margin-top: 8rem;
     }
 
     .home-content h1 {
-        font-size: 4.5rem;
+        margin-left: 4rem;
+        font-size: 4rem;
     }
 
     .home-content p {
-        font-size: 1.3rem;
-        margin-right: 9rem;
+        margin-left: 4rem;
+        font-size: 1.5rem;
+        margin-right: 5rem;
     }
 
     .home-content .social-media a {
         width: 3.5rem;
         height: 3.5rem;
         font-size: 1.8rem;
+        margin-left: 4rem;
+
     }
 
     .btn {
+        margin-left: 1rem;
         padding: 1rem 2.4rem;
         font-size: 1.4rem;
     }
@@ -812,7 +829,7 @@ ul.custom-before li::before {
     }
 
     .home .profession-container .profession-box {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
@@ -821,9 +838,9 @@ ul.custom-before li::before {
     }
 
     .home-img img {
-        width: 40%;
-        margin-bottom: 28rem;
-        margin-right: 12rem;
+        width: 50%;
+        margin-bottom: 55rem;
+        margin-right: 11rem;
     }
 
     .about {
@@ -833,13 +850,21 @@ ul.custom-before li::before {
 
     .about-img img {
         width: 50%;
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-left: 10rem;
     }
 
     .about-content h2 {
         text-align: center;
     }
+
+    .about-content h3 {
+        text-align: center;
+    }
+    .about ul {
+        margin-left: 3rem; 
+        margin-right: 3rem; 
+   }
 
     .services .services-container {
         flex-direction: column;
