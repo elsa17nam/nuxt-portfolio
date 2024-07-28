@@ -4,7 +4,6 @@
       <p class="page-content">
         Transform your ideas into stunning visuals with our Web Design services. We create responsive, user-friendly designs that engage and captivate your audience.
       </p>
-      <!-- <img src="path/to/web-designer-image.jpg" alt="Web Designer" class="page-image"> -->
     </div>
   </template>
   

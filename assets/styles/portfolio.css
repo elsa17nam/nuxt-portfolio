@@ -129,6 +129,7 @@ section {
 .home .home-content {
     max-width: 44rem;
 }
+
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
@@ -166,6 +167,7 @@ section {
     background: var(--main-color);
     color: var(--white-color);
 }
+
 .btn {
     display: inline-block;
     padding: 1.2rem 2.8rem;
@@ -178,15 +180,18 @@ section {
     font-weight: 600;
     border: .2rem solid transparent;
     transition: .5s ease;
-}   
+}  
+
 .btn:hover {
     background: transparent;
     color: var(--main-color);
     border-color: var(--main-color);
 }
+
 .home {
     margin-top: 50px;
 }
+
 .home .profession-container {
     position: absolute;
     top: 50%;
@@ -279,6 +284,7 @@ section {
 .home .profession i {
     font-size: 8rem;
 }
+
 .home .profession h3 {
     font-size: 2rem;
     line-height: 0.5;

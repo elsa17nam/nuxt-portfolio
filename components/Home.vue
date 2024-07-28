@@ -4,7 +4,8 @@
         <h3>Hello, I am</h3>
         <h1>Intishar Usman</h1>
         <p>
-          I am currently a 3rd Year BS Computer Science Student with foundational knowledge in web development and 
+          I am currently a 3rd Year BS Computer Science Student
+          with foundational knowledge in web development and 
           programming. Experienced with HTML, CSS, Python, and 
           C++ through academic coursework and personal projects. 
           Eager to apply and expand my skills in a professional 
